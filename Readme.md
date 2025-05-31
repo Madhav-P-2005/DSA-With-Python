@@ -1,8 +1,3 @@
-Here’s a **more professional and polished version** of your documentation, enriched with terminology and structure inspired by the official Python Wiki on [Time Complexity](https://wiki.python.org/moin/TimeComplexity). I've improved clarity, formatting, and added inline references to concepts that align with how professionals and educators document such material.
-
----
-
-````markdown
 # 📘 DSA With Python — A Comprehensive Practice Guide
 
 This repository serves as a hands-on, structured approach to mastering **Data Structures and Algorithms (DSA)** using Python. It follows well-curated problems from **LeetCode** and **GeeksforGeeks**, guided by the methodology taught in the course **"Code and Debug"** by **Anirudh Khurana**.
