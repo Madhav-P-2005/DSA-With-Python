@@ -76,3 +76,10 @@ total = x + y + z
 * Reduce nested loops and recursion where avoidable.
 * Use **memoization** or **dynamic programming**.
 * Preprocess repetitive computations.
+
+---
+
+## 🙌 Credits
+
+This project is built as part of my journey following the
+[**Master Data Structures and Algorithms using Python with LeetCode and GFGs**](https://www.codeanddebug.in/) by **Anirudh Khurana**.

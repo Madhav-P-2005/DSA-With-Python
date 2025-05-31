@@ -1,6 +1,6 @@
-# Created by venv; see https://docs.python.org/31/library/venv.html
+# Virtual environment folders
 
-Include
-Lib 
-Scripts
-pyven.cfg
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
