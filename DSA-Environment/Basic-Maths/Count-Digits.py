@@ -1,4 +1,4 @@
-# 1) Count Digits Using while - Loop ?   ---> My Logic
+# 2) Count Digits Using while - Loop ?   ---> My Logic
 
 Number = int(input("Enter any value :-  "))
 temp = abs(Number)    # abs() :- Copies only the magnitude (i.e., makes it positive)
@@ -12,8 +12,17 @@ else:
         count+=1
 
 
-print(f"Total digits in {Number} is :- ",count)
+print(f"Total digits in {Number} using while is :- ",count)
 
+
+'''
+
+Output :- 
+
+Enter any value :-  2987
+Total digits in 2987 using while is :-  4
+
+'''
 
 
 # 2) Count Digits Using for - loop ?   ---> My Logic   (Note :- # ⚠️ Using for is not natural here..)
@@ -22,15 +31,26 @@ Number = int(input("Enter any value :-  "))
 temp = abs(Number)   
 count = 0
 
+if temp==0:
+        count=1
+else:
+      for _ in range(100):
+                   if temp>0:
+                        temp = temp//10
+                        count+=1
 
-for i in range(temp):
-    if(temp>0):
-        temp = temp//10
-        count+=1
+
+print(f"Total digits in  {Number} using for-loop is :- ",count)
 
 
-print(f"Total digits in  {Number} is :- ",count)
+'''
 
+Output :-
+
+Enter any value :-  00
+Total digits in  0 using for-loop is :-  1
+
+'''
 
 
 # 2) Count Digits  Using  do - While  loop ?   ---> My Logic
@@ -47,7 +67,17 @@ while True:
         break
 
 
-print(f"Total digits in  {Number} is :- ",count)
+print(f"Total digits in  {Number} using do-while is :- ",count)
+
+
+'''
+
+Output :- 
+
+Enter any value :-  0
+Total digits in  0 using do-while is :-  1
+
+'''
 
 
 
@@ -69,4 +99,14 @@ def CountNum(Number):
 
 Number = int(input("Enter any Value :- "))
 Ans  = CountNum(Number)
-print(f"Total digits in {Number} is :- ",Ans)
+print(f"Total digits in {Number} using function is :- ",Ans)
+
+
+'''
+
+Output :-
+
+Enter any Value :- 1001
+Total digits in 1001 using function is :-  4
+
+'''

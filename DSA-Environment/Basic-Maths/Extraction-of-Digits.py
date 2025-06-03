@@ -60,6 +60,8 @@ while True:
 
 '''
 
+Output :- 
+
 Enter your Number (using Do - While) :- 1234
 4
 3
@@ -82,3 +84,16 @@ def Extract(Number):
 
 Number = int(input("Enter your Number (using Function ) :- "))
 Extract(Number)
+
+
+'''
+
+Output :- 
+
+Enter your Number (using Function) :- 1234
+4
+3
+2
+1
+
+'''
