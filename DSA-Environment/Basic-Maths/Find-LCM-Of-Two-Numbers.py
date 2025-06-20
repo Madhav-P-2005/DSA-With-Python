@@ -1,3 +1,9 @@
+# --------------
+#    Using Brute Force Method 
+# --------------
+   
+
+
 # Q15) Find the LCM (Lowest Common Multiple) of two Numbers Using while Loop ?   --> My Logic 
 
 Number1 = int(input("Enter your 1st Number :- "))
