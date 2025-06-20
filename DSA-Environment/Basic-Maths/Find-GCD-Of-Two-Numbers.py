@@ -1,4 +1,4 @@
-# Q14) Find the GCD(Greatest Common Factor)(HCF) of Two Numbers Using While loop ? (Euclid’s Algorithm)  --> My Logic 
+# Q14) Find the GCD(Greatest Common Divisor :- Also know as HCF) of Two Numbers Using While loop ? (Euclid’s Algorithm)  --> My Logic 
 
 Number1 = int(input("Enter your 1st Number :- "))
 Number2 = int(input("Enter your 2nd Number :- "))
