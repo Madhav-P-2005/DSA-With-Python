@@ -43,7 +43,7 @@ Number3 = 0
 Limit = int(input("Set Your Limit :- "))
 i=0
 
-print("The Fibonnacci Numbers are :-  ")
+print("The Fibonacci Numbers are :-  ")
 print(Number1)
 for i in range(1, Limit):
     Number1 = Number2
@@ -60,7 +60,7 @@ for i in range(1, Limit):
 Output :- 
 
 Set Your Limit :- 21
-The Fibonnacci Numbers are :-  
+The Fibonacci Numbers are :-  
 0
 1
 1
@@ -82,7 +82,7 @@ Number2 = 1
 Number3 = 0
 Limit = int(input("Set Your Limit :- "))
 
-print("The Fibonnacci Numbers are :-  ")
+print("The Fibonacci Numbers are :-  ")
 print(Number1)
 
 if Limit<=0:
@@ -106,7 +106,7 @@ else:
 Output :- 
 
 Set Your Limit :- 35
-The Fibonnacci Numbers are :-  
+The Fibonacci Numbers are :-  
 0
 1
 1
