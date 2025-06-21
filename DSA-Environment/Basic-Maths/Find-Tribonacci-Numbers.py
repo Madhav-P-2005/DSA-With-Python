@@ -6,7 +6,13 @@
 
 
 
+'''
 
+Output :- 
+
+
+
+'''
 
 
 
@@ -14,14 +20,35 @@
 # Q17) Find the Tribonacci Numbers Using For - Loop  ?     --> My Logic 
 
 
+'''
 
+Output :- 
+
+
+
+'''
 
 
 # Q17) Find the Tribonacci Numbers Using Do - While Loop ?    --> My Logic 
 
 
+'''
 
+Output :- 
+
+
+
+'''
 
 
 
 # Q17) Find the Tribonacci Numbers Using Function ?   --> My Logic 
+
+
+'''
+
+Output :- 
+
+
+
+'''
