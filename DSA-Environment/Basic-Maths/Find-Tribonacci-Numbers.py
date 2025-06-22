@@ -1,4 +1,4 @@
-# Q17) Find the Tribonacci Numbers Using While Loop  ? (Example :-  0 , 1 , 1 ,2 , 4 , 7 , 13)   --> My Logic 
+# Q17) Find the Tribonacci Numbers Using While Loop  ? (Example :-  0 , 1 , 1 , 2 , 4 , 7 , 13)   --> My Logic 
 
 
 
