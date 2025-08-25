@@ -111,3 +111,23 @@ Enter the Value :-  345
 345 is not a Palindrome Number 
 
 '''
+
+
+
+# Anirudh's Sir's Approach :- 
+
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:
+            return False
+        temp = x
+        result = 0
+        while temp > 0:
+            remainder = temp % 10
+            result = (result * 10) + remainder
+            temp = temp // 10
+        return result == x
+    
+
+# Time Complexity :-  n = n//10   =>   O(log10(n))    
+# Space Complexity :-  O(1)   
