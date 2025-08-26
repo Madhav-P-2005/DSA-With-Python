@@ -118,3 +118,24 @@ Enter your Number :- -407
 -407 is not a Armstrong Number
 
 '''
+
+
+
+
+# Anirudh Sir's Approach  & (GFG Solved) :-   
+class Solution:
+    def armstrongNumber (self, n):
+        # code here 
+        nod = len(str(n))
+        temp = n
+        armstrong = 0
+        while temp!=0:
+               remainder = temp % 10 
+               armstrong = armstrong + (remainder**nod)
+               temp = temp // 10
+        return armstrong==n
+    
+
+
+# Time Complexity  :-   T(n) = O(log10​(x))
+# Space Complexity :-   S(n) = O(1)    or  O(log x)   

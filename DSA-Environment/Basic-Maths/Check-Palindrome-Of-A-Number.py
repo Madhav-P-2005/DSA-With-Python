@@ -129,5 +129,5 @@ class Solution:
         return result == x
     
 
-# Time Complexity :-  n = n//10   =>   O(log10(n))    
-# Space Complexity :-  O(1)   
+# Time Complexity  :-   T(n) = O(log10​(x))
+# Space Complexity :-   S(n) = O(1)    or  O(log x)   
