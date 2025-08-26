@@ -102,3 +102,23 @@ All Factors of 8 are :-  [1, 2, 4, 8]
 
 
 '''
+
+
+
+# Anirudh's Sir's Optimized Solution :- 
+
+from math import sqrt
+class Solution:
+    def countFactors (self, n):
+         result = []
+         for i in range(1 , int(sqrt(n)) + 1):
+           if n%i == 0:
+               result.append(i)
+           if n//i !=i:
+               result.append(n//i)
+           result.sort()
+           return result
+    
+
+# Time Complexity  :-   T(n) = O(√N) + O(N Log N)
+# Space Complexity :-   S(n) = O(k)  
